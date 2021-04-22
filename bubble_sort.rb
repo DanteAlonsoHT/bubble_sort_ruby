@@ -12,8 +12,6 @@ def bubble_sort(array = [])
   array
 end
 
-array_trial_int = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-
 def bubble_sort_by(array)
   (array.length - 1).times do |i|
     if (yield array[i], array[i + 1]).positive?
